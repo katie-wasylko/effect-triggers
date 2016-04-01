@@ -129,10 +129,6 @@ div {
   overflow-y: auto;
 }
 
-.append {
-
-}
-
 .list li {
   overflow: hidden;
   padding: 0 0.5em;
@@ -143,4 +139,14 @@ div {
   overflow: hidden;
 
   color: mediumpurple;
+  animation: li-show .5s linear forwards;
+}
+
+@keyframes li-show {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 1.5em;
+  }
 }

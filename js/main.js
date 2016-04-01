@@ -21,5 +21,8 @@ $btnBounce.on('click', function(){
 });
 
 $btnAppend.on('click', function(){
-  $('.list').toggleClass('append');
+  var $li = $('<li>');
+
+    $li.html('New List Item');
+    $('.list').append($li);
 });
