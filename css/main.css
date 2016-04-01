@@ -90,28 +90,29 @@ div {
 }
 
 .bounce {
-    animation: bounce .5s linear forwards;
+  animation: bounce .5s linear forwards;
 }
 
 @keyframes bounce {
+
   0% {
-    transform: translate(0,0);
+    transform: translate(0, 0);
   }
 
   25% {
-    transform: translate(-25px,-20px);
+    transform: translate(-25px, -20px);
   }
 
   50% {
-    transform: translate(-50px,20px);
+    transform: translate(-50px, 0px);
   }
 
   75% {
-    transform: translate(-75px,-20px);
+    transform: translate(-75px, -20px);
   }
 
   100% {
-    transform: translate(-100px,0);
+    transform: translate(-100px, 0);
   }
 }
 
@@ -143,9 +144,11 @@ div {
 }
 
 @keyframes li-show {
+
   0% {
     max-height: 0;
   }
+  
   100% {
     max-height: 1.5em;
   }
