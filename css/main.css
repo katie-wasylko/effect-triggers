@@ -71,6 +71,10 @@ div {
   text-align: center;
 }
 
+.collapse {
+
+}
+
 .panel h2 {
   margin: 0;
   padding: 3rem 0;
@@ -85,6 +89,10 @@ div {
   border-radius: 50%;
 }
 
+.bounce {
+
+}
+
 .list {
   bottom: 1em;
   margin: 0;
@@ -97,6 +105,10 @@ div {
   border: 1px solid #ccc;
   overflow: hidden;
   overflow-y: auto;
+}
+
+.append {
+  
 }
 
 .list li {

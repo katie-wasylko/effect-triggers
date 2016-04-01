@@ -12,14 +12,14 @@ $btnMove.on('click', function(){
   $('.diamond').toggleClass('move');
 });
 
-$btnMove.on('click', function(){
-  $('.panel').toggleClass('move');
+$collExpand.on('click', function(){
+  $('.panel').toggleClass('collapse');
 });
 
-$btnMove.on('click', function(){
-  $('.circle').toggleClass('move');
+$btnBounce.on('click', function(){
+  $('.circle').toggleClass('bounce');
 });
 
-$btnMove.on('click', function(){
-  $('.list').toggleClass('move');
+$btnAppend.on('click', function(){
+  $('.list').toggleClass('append');
 });
