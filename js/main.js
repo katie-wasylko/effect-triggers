@@ -17,7 +17,11 @@ $collExpand.on('click', function () {
 });
 
 $btnBounce.on('click', function () {
-  $('.circle').toggleClass('bounce');
+  $('.circle').addClass('bounce');
+});
+
+$('.circle').on('animationend', function () {
+  $('.circle').removeClass('bounce');
 });
 
 $btnAppend.on('click', function () {
