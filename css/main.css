@@ -40,7 +40,6 @@ div {
 
 .show {
   opacity: 1;
-
 }
 
 .diamond {
@@ -51,6 +50,11 @@ div {
 
   background-color: hotpink;
   transform: rotate(45deg);
+  transition: all .5s ease;
+}
+
+.move {
+  
 }
 
 .panel {
@@ -61,6 +65,7 @@ div {
 
   background-color: yellow;
   transform: translateY(-50%);
+  transition: all .5s ease;
 
   color: darkgoldenrod;
   text-align: center;

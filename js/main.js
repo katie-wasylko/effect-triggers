@@ -1,3 +1,11 @@
-$body.on('click', '.box', function (){
-  $(this).addClass('show');
+var $showHide=$('.btn-show-hide');
+var $btnMove=$('.btn-move');
+
+
+$showHide.on('click', function(){
+  $('.box').toggleClass('show');
+});
+
+$btnMove.on('click', function(){
+  $('.box').toggleClass('move');
 });
